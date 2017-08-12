@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamProxyMiddleware", "ResponseProxyMiddleware\ResponseProxyMiddleware.csproj", "{36E6366F-973A-40F0-924F-EEDE49A3F3E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C78CE90F-1284-4471-8560-B20389A1E480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleProxy", "SimpleProxy\SimpleProxy.csproj", "{D04D0752-3353-427C-809F-0F12BB2FEF9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E6366F-973A-40F0-924F-EEDE49A3F3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E6366F-973A-40F0-924F-EEDE49A3F3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E6366F-973A-40F0-924F-EEDE49A3F3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E6366F-973A-40F0-924F-EEDE49A3F3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04D0752-3353-427C-809F-0F12BB2FEF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04D0752-3353-427C-809F-0F12BB2FEF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04D0752-3353-427C-809F-0F12BB2FEF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04D0752-3353-427C-809F-0F12BB2FEF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D04D0752-3353-427C-809F-0F12BB2FEF9C} = {C78CE90F-1284-4471-8560-B20389A1E480}
+	EndGlobalSection
+EndGlobal
